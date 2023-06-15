@@ -34,8 +34,8 @@
 #back_top{
     position: relative;
     width: 110vw;
-    height: 75vh;
-    top: -70vh;
+    height: 100vh;
+    top: -105vh;
     left: -5vw;
     z-index: -1;
     background-color: rgb(85, 16, 150);
@@ -45,8 +45,8 @@
 #back_top_shadow{
     position: relative;
     width: 110vw;
-    height: 75vh;
-    top: -137vh;
+    height: 90vh;
+    top: -190vh;
     left: -5vw;
     z-index: -2;
     background-color: rgb(194, 194, 194);
@@ -86,7 +86,7 @@
     position: relative;
     width: 110vw;
     height: 75vh;
-    top: -115vh; 
+    top: -110vh; 
     left: -5vw;
     z-index: -2;
     background-color: rgb(194, 194, 194);
@@ -119,7 +119,7 @@ h3{
 }
 
 ol{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 800;
 }
 
@@ -143,106 +143,11 @@ tr a:hover{
 td{
     padding: 40px;
 }
-
-/* tamanho de tela altura abaixo de 540px */
-@media (max-height: 540px)
+/* tamanho de tela abaixo de 1200px */
+@media (max-width: 600px)
 {
-    #back_top{
-        height: 100vh;
-        top: -105vh;
-    }
-    
-    #back_top_shadow{
-        height: 90vh;
-        top: -185vh;
-    }
-}
-
-/* tamanho de tela abaixo de 768px */
-@media (max-width: 768px){
-
-    #perfil_img{
-        width: 150px;
-        height: 150px;
-    }
-
-    h1{
-        font-size: 2.8rem;
-    }
-
-    .top{
-        height: 65vh;
-    }
-
-    .mid{
-        padding-bottom: 10vh;
-    }
-
-    td{
-        padding: 30px;
-    }
-}
-
-/* tamanho de tela abaixo de 600px */
-@media (max-width: 600px){
-    #perfil_img{
-        width: 125px;
-        height: 125px;
-    }
-
-    h1{
-        font-size: 2.1rem;
-    }
-
-    .top{
-        height: 55vh;
-    }
-
-    td{
-        font-size: 0.7rem;
-        padding: 25px;
-    }
-
-    #back_bot {
-        top: -25vh;
-    }
-
-    #back_bot_shadow {
-        top: -110vh;
-    }
-}
-
-/* Exceção de 500px */
-@media (max-width: 500px){
-    #perfil_img{
-        width: 100px;
-        height: 100px;
-    }
-
-    h1{
-        font-size: 1.7rem;
-    }
-
-    #back_top{
-        top: -73vh;
-    }
-
-    #back_top_shadow{
-        top: -143vh;
-    }
-
-    .top{
-        height: 40vh;
-    }
-
-    td{
-        font-size: 0.6rem;
-        padding: 25px;
-    }
-
-    #back_bot_shadow {
-        top: -105vh;
-    }
-
-    
+  .facet_sidebar
+   {
+    display: none;
+   }
 }
