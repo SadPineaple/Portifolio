@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 #cont_top{
@@ -18,17 +19,15 @@
 }
 
 #perfil_img{
-    background-image: url(./Imagens/eu_mlk.png);
+    background-image: url(../Imagens/desenvolvimento-de-software.png);
     background-size: cover;
-    width: 200px;
+    width: 230px;
     height: 230px;
-    border-radius: 100%;
 }
 
 #perfil_img:hover{
     background-image: url(./Imagens/bicho-pau.jpg);
     transition: 0.3s;
-    cursor: pointer;
 }
 
 h1{
@@ -39,6 +38,7 @@ h1{
 #back_top{
     position: relative;
     width: 100vw;
+    z-index: -1;
     background-color: rgb(85, 16, 150);
 }
 
@@ -88,6 +88,7 @@ ol{
 #back_bot{
     position: relative;
     width: 100vw;
+    z-index: -1;
     background-color: rgb(85, 16, 150);
 }
 
@@ -119,6 +120,24 @@ td a:hover{
 
 td{
     padding: 40px;
+}
+
+.carrossel{
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+}
+
+.carrossel__container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0)
+}
+
+img{
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
 }
 
 /* Telas de 992px */

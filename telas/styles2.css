@@ -18,17 +18,15 @@
 }
 
 #perfil_img{
-    background-image: url(./Imagens/eu_mlk.png);
+    background-image: url(../Imagens/analise-de-dados.png);
     background-size: cover;
-    width: 200px;
+    width: 230px;
     height: 230px;
-    border-radius: 100%;
 }
 
 #perfil_img:hover{
     background-image: url(./Imagens/bicho-pau.jpg);
     transition: 0.3s;
-    cursor: pointer;
 }
 
 h1{
@@ -39,6 +37,7 @@ h1{
 #back_top{
     position: relative;
     width: 100vw;
+    z-index: -1;
     background-color: rgb(85, 16, 150);
 }
 
@@ -88,6 +87,7 @@ ol{
 #back_bot{
     position: relative;
     width: 100vw;
+    z-index: -1;
     background-color: rgb(85, 16, 150);
 }
 
