@@ -20,8 +20,8 @@
 #perfil_img{
     background-image: url(./Imagens/eu_mlk.png);
     background-size: cover;
-    width: 200px;
-    height: 230px;
+    width: 40vh;
+    height: 40vh;
     border-radius: 100%;
 }
 
@@ -95,7 +95,6 @@ ol{
     position: relative;
     width: 100vw;
     height: 5vh;
-    z-index: -2;
     background-color: rgb(194, 194, 194);
 }
 
@@ -126,8 +125,8 @@ td{
 @media (max-width: 992px){
 
     #perfil_img{
-        width: 160px;
-        height: 180px;
+        width: 30vh;
+        height: 30vh;
     }
 
     h1{
@@ -162,8 +161,8 @@ td{
 @media (max-width: 768px){
 
     #perfil_img{
-        width: 95px;
-        height: 115px;
+        width: 20vh;
+        height: 20vh;
     }
 
     h1{

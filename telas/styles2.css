@@ -20,8 +20,8 @@
 #perfil_img{
     background-image: url(../Imagens/analise-de-dados.png);
     background-size: cover;
-    width: 230px;
-    height: 230px;
+    width: 40vh;
+    height: 40vh;
 }
 
 #perfil_img:hover{
@@ -37,7 +37,6 @@ h1{
 #back_top{
     position: relative;
     width: 100vw;
-    z-index: -1;
     background-color: rgb(85, 16, 150);
 }
 
@@ -87,7 +86,6 @@ ol{
 #back_bot{
     position: relative;
     width: 100vw;
-    z-index: -1;
     background-color: rgb(85, 16, 150);
 }
 
@@ -126,8 +124,8 @@ td{
 @media (max-width: 992px){
 
     #perfil_img{
-        width: 160px;
-        height: 180px;
+        width: 30vh;
+        height: 30vh;
     }
 
     h1{
@@ -144,26 +142,8 @@ td{
 @media (max-width: 768px){
 
     #perfil_img{
-        width: 115px;
-        height: 130px;
-    }
-
-    h1{
-        font-size: 3rem;
-    }
-
-    tr{
-        font-size: 1rem;
-    }
-}
-
-/* Telas de 768px */
-
-@media (max-width: 768px){
-
-    #perfil_img{
-        width: 95px;
-        height: 115px;
+        width: 20vh;
+        height: 20vh;
     }
 
     h1{
