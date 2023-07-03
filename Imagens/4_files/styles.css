@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{ 
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.top{
+    height: 80vh;
+    overflow: hidden;
+}
+
+.mid{
+    padding: 7vw;
+    padding-bottom: 7vh;
+    padding-left: 20vw;
+}
+
+.bot{
+    padding-top: 20vw;
+    height: 25vh;
+    overflow: hidden;
+}
+
+#cont_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7vw;
+}
+
+#back_top{
+    position: relative;
+    width: 110vw;
+    height: 100vh;
+    top: -105vh;
+    left: -5vw;
+    z-index: -1;
+    background-color: rgb(85, 16, 150);
+    transform: rotate(3deg);
+}
+
+#back_top_shadow{
+    position: relative;
+    width: 110vw;
+    height: 90vh;
+    top: -190vh;
+    left: -5vw;
+    z-index: -2;
+    background-color: rgb(194, 194, 194);
+    transform: rotate(3deg)
+}
+
+#cont_mid a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:rgb(29, 29, 29);
+}
+
+#cont_mid a:hover{
+    color:rgb(126, 32, 189);
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+.cont_bot{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+#back_bot{
+    position: relative;
+    width: 110vw;
+    height: 75vh;
+    top: -30vh; 
+    left: -5vw;
+    z-index: -1;
+    background-color: rgb(85, 16, 150);
+    transform: rotate(3deg);
+}
+
+#back_bot_shadow{
+    position: relative;
+    width: 110vw;
+    height: 75vh;
+    top: -110vh; 
+    left: -5vw;
+    z-index: -2;
+    background-color: rgb(194, 194, 194);
+    transform: rotate(3deg);
+}
+
+#perfil_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url(./Imagens/eu_mlk.png);
+    background-size: 90%;
+}
+
+#perfil_img:hover{
+    background-image: url(./Imagens/euIrl.jpg);
+    background-size:cover;
+    transition: .7s;
+    cursor: alias;
+}
+
+h1{
+    font-size: 4rem;
+    color:rgb(255, 255, 255)
+}
+
+h3{
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+}
+
+ol{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+tr{
+    color: #e7e7e7;
+}
+
+tr a{
+    text-decoration: none;
+    color:#e7e7e7;
+}
+
+tr a:hover{
+    color:#d38bfd;
+}
+
+td{
+    padding: 40px;
+}
+/* tamanho de tela abaixo de 1200px */
+@media (max-width: 600px)
+{
+  .facet_sidebar
+   {
+    display: none;
+   }
+}
