@@ -36,7 +36,6 @@ h1{
 #back_top{
     position: relative;
     width: 100vw;
-    z-index: -1;
     background-color: rgb(85, 16, 150);
 }
 
@@ -74,7 +73,6 @@ ol{
 #back_bot{
     position: relative;
     width: 100vw;
-    z-index: -1;
     background-color: rgb(85, 16, 150);
 }
 
@@ -86,26 +84,31 @@ ol{
     background-color: rgb(194, 194, 194);
 }
 
-li{
-    margin-bottom: 5px;
+.cont_bot_container{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    color: #fff;
+    text-align: center;
 }
 
-tr{
-    color: #e7e7e7;
-}
-
-td a{
+.cont_bot_link{
+    color: #fff;
     text-decoration: none;
-    color:#e7e7e7;
 }
 
-td a:hover{
-    color:#d38bfd;
-    cursor: pointer;
+.cont_bot_link:hover{
+    color: #a0a0a0
 }
 
-td{
-    padding: 40px;
+.cont_bot_sup{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+}
+
+.cont_bot_inf{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
 }
 
 .carrossel{

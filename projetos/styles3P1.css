@@ -5,7 +5,6 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 #cont_top{
@@ -18,17 +17,15 @@
 }
 
 #perfil_img{
-    background-image: url(./Imagens/eu_mlk.png);
+    background-image: url(../Imagens/web-design.png);
     background-size: cover;
-    width: 35vh;
+    width: 40vh;
     height: 40vh;
-    border-radius: 100%;
 }
 
 #perfil_img:hover{
     background-image: url(./Imagens/bicho-pau.jpg);
     transition: 0.3s;
-    cursor: pointer;
 }
 
 h1{
@@ -53,18 +50,6 @@ h1{
 .mid{
     padding: 7vw;
     padding-left: 20vw;
-}
-
-#cont_mid a{
-    text-decoration: none;
-    font-size: 1.2rem;
-    color:rgb(29, 29, 29);
-}
-
-#cont_mid a:hover{
-    color:rgb(126, 32, 189);
-    margin-left: 30px;
-    transition: 0.5s;
 }
 
 h3{
@@ -95,11 +80,8 @@ ol{
     position: relative;
     width: 100vw;
     height: 5vh;
+    z-index: -2;
     background-color: rgb(194, 194, 194);
-}
-
-li{
-    margin-bottom: 5px;
 }
 
 .cont_bot_container{
@@ -129,17 +111,37 @@ li{
     grid-template-columns: 1fr  1fr 1fr;
 }
 
+img{
+    height: 500px;
+    width: 500px;
+}
+
+.desc{
+    width: 60vw;
+    text-align: justify;
+    margin-top: 10vh;
+    font-size: 1rem;
+}
+
+.desc p{
+    margin-top: 5vh;
+}
+
 /* Telas de 992px */
 
 @media (max-width: 992px){
 
     #perfil_img{
-        width: 27vh;
+        width: 30vh;
         height: 30vh;
     }
 
     h1{
         font-size: 3.5rem;
+    }
+
+    tr{
+        font-size: 1.1rem;
     }
 }
 
@@ -148,12 +150,16 @@ li{
 @media (max-width: 768px){
 
     #perfil_img{
-        width: 18vh;
+        width: 20vh;
         height: 20vh;
     }
 
     h1{
         font-size: 2rem;
+    }
+
+    tr{
+        font-size: 0.8rem;
     }
 
     h3{
